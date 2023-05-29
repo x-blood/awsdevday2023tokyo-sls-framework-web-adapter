@@ -11,6 +11,7 @@ Resources:
   ApiFunction:
     Type: AWS::Serverless::Function
     Properties:
+      FunctionName: "awsdevday2023tokyo-sls-framework-web-adapter"
       PackageType: Image
       MemorySize: 2048
       Tracing: Active

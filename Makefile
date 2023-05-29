@@ -1,4 +1,7 @@
-STACK_NAME=slsjava-quarkus-wa-ecr
+STACK_NAME=awsdevday2023tokyo-sls-framework-web-adapter
+
+run-local:
+	./mvnw quarkus:dev
 
 build-local:
 	./mvnw package
