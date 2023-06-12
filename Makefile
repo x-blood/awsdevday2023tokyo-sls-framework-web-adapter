@@ -15,3 +15,6 @@ sam-deploy-guided:
 
 sam-deploy:
 	sam deploy
+
+sam-delete:
+	sam delete
